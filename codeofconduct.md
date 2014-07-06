@@ -1,4 +1,4 @@
-# Nodebots Dat Las Vegas Code of Conduct
+# Nodebots Day Las Vegas Code of Conduct
 
 Nodebots Day Las Vegas is a community hackathon movement and series of events, intending to provide an inclusive and fun environment to experiment and demo cool projects.
 

@@ -21,7 +21,7 @@
 
 	h1
 	{
-		font-size: 3.25em;
+		font-size: 3em;
 		letter-spacing: -0.025em;
 	}
 
@@ -185,7 +185,8 @@
 		#top h1
 		{
 			font-family: 'KGSummerSunshineShadow';
-			margin-top: 0.35em;
+			margin-top: 1em;
+			color: #2e2e2c;
 		}
 	
 		#top p

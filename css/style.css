@@ -1047,3 +1047,103 @@ header span {
 iframe {
 	margin: 1.5em 0 1.5em 0;
 }
+
+
+header .icon{
+	position: relative;
+	float: left;
+  width:150px;
+  height:150px;
+  margin-bottom: 20px;
+}
+header .icon * {
+  background: #2e2e2c;
+}
+header .icon .bobble{
+  width:12.5%;
+  height:12%;
+  border-radius: 100%;    
+  margin:5% auto -3.8%;
+}
+header .antenna{
+  width:6%;
+  margin:0 auto 4%;
+  height:16.5%;
+  border-bottom-left-radius: 80% 30%;
+  border-bottom-right-radius: 80% 30%;
+}
+header .head{
+  width: 100%;
+  height: 48.5%;
+  border-top-left-radius: 15% 25%;
+  border-top-right-radius: 15% 25%;
+  position:relative;
+}
+header .head .eye{
+  width:18%;
+  height:33.5%;
+  margin:0 18.2%;
+  border-radius: 100%;
+  background-color: #ffff66;  
+  display: inline-block;
+  position:absolute;
+  top:26%;
+  left: 0px;
+  -webkit-animation: blink 5s 2s infinite;
+          animation: blink 5s 2s infinite
+}
+header .eye.right{
+  left: auto;
+  right:0;
+}
+header .head .eye.blink {
+  height: 6%;
+  top:36%;
+  border-radius: 0;
+  background-color: #000;  
+}
+header .neck{
+  border-radius: 20px;    
+  width: 69%;
+  height: 6%;
+  margin: 3.6% auto 0;
+}
+header .neck:last-child{
+  width: 48%;
+}
+
+@-webkit-keyframes blink {
+  0%, 4%, 8%, 100%{
+    height:33.5%;
+    border-radius: 100%;
+    background-color: #ffff66;  
+    top:26%;
+  }
+  2%, 6% {
+    height: 6%;
+    top:36%;
+    border-radius: 0;
+    background-color: #000;
+  }
+}
+
+@keyframes blink {
+  0%, 4%, 8%, 100%{
+    height:33.5%;
+    border-radius: 100%;
+    background-color: #ffff66;  
+    top:26%;
+  }
+  2%, 6% {
+    height: 6%;
+    top:36%;
+    border-radius: 0;
+    background-color: #000;
+  }
+}
+
+
+
+
+
+
